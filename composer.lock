@@ -1,0 +1,74 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
+    ],
+    "hash": "8a87a44c5fb15c6d957888149e8bc2d2",
+    "packages": [
+        {
+            "name": "mashape/unirest-php",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Mashape/unirest-php.git",
+                "reference": "461060202cf928859b1d8a6be2da5bf4341f77e0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Mashape/unirest-php/zipball/461060202cf928859b1d8a6be2da5bf4341f77e0",
+                "reference": "461060202cf928859b1d8a6be2da5bf4341f77e0",
+                "shasum": ""
+            },
+            "require": {
+                "ext-curl": "*",
+                "ext-json": "*",
+                "php": ">=5.3.0"
+            },
+            "require-dev": {
+                "vierbergenlars/simpletest": "*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Unirest": "lib"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Mashape",
+                    "email": "support@mashape.com",
+                    "homepage": "http://mashape.com"
+                }
+            ],
+            "description": "Unirest PHP",
+            "homepage": "https://github.com/Mashape/unirest-php",
+            "keywords": [
+                "client",
+                "curl",
+                "http",
+                "rest"
+            ],
+            "time": "2014-04-06 02:38:31"
+        }
+    ],
+    "packages-dev": [
+
+    ],
+    "aliases": [
+
+    ],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "mashape/unirest-php": 20
+    },
+    "platform": [
+
+    ],
+    "platform-dev": [
+
+    ]
+}

@@ -1,0 +1,53 @@
+[
+    {
+        "name": "mashape/unirest-php",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/Mashape/unirest-php.git",
+            "reference": "461060202cf928859b1d8a6be2da5bf4341f77e0"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/Mashape/unirest-php/zipball/461060202cf928859b1d8a6be2da5bf4341f77e0",
+            "reference": "461060202cf928859b1d8a6be2da5bf4341f77e0",
+            "shasum": ""
+        },
+        "require": {
+            "ext-curl": "*",
+            "ext-json": "*",
+            "php": ">=5.3.0"
+        },
+        "require-dev": {
+            "vierbergenlars/simpletest": "*"
+        },
+        "time": "2014-04-06 02:38:31",
+        "type": "library",
+        "installation-source": "source",
+        "autoload": {
+            "psr-0": {
+                "Unirest": "lib"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Mashape",
+                "email": "support@mashape.com",
+                "homepage": "http://mashape.com"
+            }
+        ],
+        "description": "Unirest PHP",
+        "homepage": "https://github.com/Mashape/unirest-php",
+        "keywords": [
+            "client",
+            "curl",
+            "http",
+            "rest"
+        ]
+    }
+]
