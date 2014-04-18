@@ -1,7 +1,3 @@
-Get The Answer
-By 
-Shashank Agarwal
-Nimit Goyal
 
 Get the answer is an advance object recognition app. 
 Just point your camera to any object and the app tells you 
