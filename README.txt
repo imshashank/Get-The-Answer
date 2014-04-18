@@ -1,5 +1,6 @@
+### About the web app.
 
-Get the answer is an advance object recognition app. 
+Get the answer is an advanced object recognition app. 
 Just point your camera to any object and the app tells you 
   What the object is
   Which category it belongs to
@@ -12,7 +13,7 @@ Alchemy API
 ANswers.com
 Wolfram ALpha
 
-Installation:
+### Installation:
 
 Get the following API keys:
 ALchemy API
@@ -29,7 +30,7 @@ Add alchemy API to file alchemy_api.txt in root folder.
 Then just open index.php in a browser.
 Each uploaded image is saved in “uploads” folder.
 
-How it works:
+### How it works:
 Each image is sent to camfindapp for object recognition.
 
 The results are then parsed using Alchemy API to get the taxonomy (categorization).
@@ -39,9 +40,6 @@ The nouns are then passed on to Answers.com to get the most relevant questions a
 
 The noun and categories are also used to get data from wolfram alpha.
 
-Help:
+### Help:
 
 If you need any help just mail me at agarwal.202[at]osu.edu
-
-
-
