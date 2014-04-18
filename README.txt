@@ -1,4 +1,5 @@
 ### About the web app.
+The Web app won first prize in category "Best use of Data" at UIUC Hackillinois (April 2014)
 
 Get the answer is an advanced object recognition app. 
 Just point your camera to any object and the app tells you 
