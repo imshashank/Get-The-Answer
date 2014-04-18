@@ -1,0 +1,90 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Get-the-answer by imshashank</title>
+
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1>Get-the-answer</h1>
+        <p>Gives detailed information using Object recognition in an image provided</p>
+
+        <p class="view"><a href="https://github.com/imshashank/Get-The-Answer">View the Project on GitHub <small>imshashank/Get-The-Answer</small></a></p>
+
+
+        <ul>
+          <li><a href="https://github.com/imshashank/Get-The-Answer/zipball/master">Download <strong>ZIP File</strong></a></li>
+          <li><a href="https://github.com/imshashank/Get-The-Answer/tarball/master">Download <strong>TAR Ball</strong></a></li>
+          <li><a href="https://github.com/imshashank/Get-The-Answer">View On <strong>GitHub</strong></a></li>
+        </ul>
+      </header>
+      <section>
+        <h3>
+<a name="about-the-web-app" class="anchor" href="#about-the-web-app"><span class="octicon octicon-link"></span></a>About the web app.</h3>
+
+<p>Get the answer is an advanced object recognition app. 
+Just point your camera to any object and the app tells you 
+  What the object is
+  Which category it belongs to
+  What others ask about it
+  More info (nutrients, stocks etc.) from wolfram Alpha</p>
+
+<p>APIs uses:
+camfind App
+Alchemy API
+ANswers.com
+Wolfram ALpha</p>
+
+<h3>
+<a name="installation" class="anchor" href="#installation"><span class="octicon octicon-link"></span></a>Installation:</h3>
+
+<p>Get the following API keys:
+ALchemy API
+Mashape CamFindApp
+Wolfram Alpha</p>
+
+<p>Install the alchemy API, camfindapp and Wolfram Alpha for PHP. See their websites for installation instructions.</p>
+
+<p>Edit the file index.php and add the api keys from mashape &amp; wolfram.
+Answers.com API that I used had no API, but that API no longer works so try getting a new API from their site.</p>
+
+<p>Add alchemy API to file alchemy_api.txt in root folder.</p>
+
+<p>Then just open index.php in a browser.
+Each uploaded image is saved in “uploads” folder.</p>
+
+<h3>
+<a name="how-it-works" class="anchor" href="#how-it-works"><span class="octicon octicon-link"></span></a>How it works:</h3>
+
+<p>Each image is sent to camfindapp for object recognition.</p>
+
+<p>The results are then parsed using Alchemy API to get the taxonomy (categorization).
+Also I used Alchemy to get the “key concept” and separate nouns from adjectives.</p>
+
+<p>The nouns are then passed on to Answers.com to get the most relevant questions and answers.</p>
+
+<p>The noun and categories are also used to get data from wolfram alpha.</p>
+
+<h3>
+<a name="help" class="anchor" href="#help"><span class="octicon octicon-link"></span></a>Help:</h3>
+
+<p>If you need any help just mail me at agarwal.202[at]osu.edu</p>
+      </section>
+      <footer>
+        <p>This project is maintained by <a href="https://github.com/imshashank">imshashank</a></p>
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
+    </div>
+    <script src="javascripts/scale.fix.js"></script>
+    
+  </body>
+</html>
